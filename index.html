@@ -15,7 +15,7 @@
     <title>Frontend Mentor | Stats preview card component</title>
 
     <!-- TailwindCSS -->
-    <link rel="stylesheet" href="./build.css" />
+    <link rel="stylesheet" href="./src/app.css" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -32,24 +32,20 @@
     <div
       class="w-72 rounded-lg overflow-hidden md:grid md:grid-cols-2 md:w-full md:max-w-4xl"
     >
-      <figure class="relative md:order-2">
+      <figure class="relative md:order-2 bg-violet-soft">
         <!-- Mobile -->
         <img
           src="./images/image-header-mobile.jpg"
           alt="People working"
-          class="md:hidden"
+          class="md:hidden mix-blend-multiply opacity-80"
         />
 
         <!-- Desktop -->
         <img
           src="./images/image-header-desktop.jpg"
           alt="People working"
-          class="hidden md:block object-cover w-full h-full"
+          class="hidden md:block object-cover w-full h-full mix-blend-multiply opacity-80"
         />
-        <div
-          class="absolute top-0 inset-x-0 w-full h-full bg-violet-hard opacity-60"
-        ></div>
-        <!-- I'm doing this because I don't want to open css file ✌ -->
       </figure>
       <main
         class="bg-blue-desaturated p-6 flex flex-col gap-4 items-center md:order-1 md:p-12"

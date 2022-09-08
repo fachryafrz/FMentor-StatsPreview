@@ -10,7 +10,6 @@ module.exports = {
         },
         violet: {
           soft: "hsl(277, 64%, 61%)",
-          hard: "hsl(280, 100%, 25%)",
         },
         light: {
           "main-paragraph": "hsla(0, 0%, 100%, 0.75)",
